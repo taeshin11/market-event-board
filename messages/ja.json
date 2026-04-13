@@ -1,0 +1,12 @@
+{
+  "nav": { "home": "ホーム", "calendar": "カレンダー", "earnings": "決算", "dividends": "配当", "macro": "マクロ", "ipos": "IPO", "title": "MarketEventBoard" },
+  "home": { "hero_title": "マーケットイベントカレンダー", "hero_subtitle": "決算、配当、FOMC会議、経済指標をひとつの場所で。", "this_week": "今週のイベント", "upcoming_high": "注目の予定イベント", "view_all": "すべて見る", "no_events": "予定なし", "filter_all": "すべて", "filter_earnings": "決算", "filter_dividends": "配当", "filter_macro": "マクロ/FED", "filter_ipos": "IPO" },
+  "calendar": { "title": "イベントカレンダー", "subtitle": "マーケットイベントの月別ビュー", "prev_month": "前月", "next_month": "翌月", "today": "今日", "no_events": "この日はイベントなし" },
+  "earnings": { "title": "決算カレンダー", "subtitle": "2025年Q2企業決算スケジュール", "pre_market": "寄り付き前", "post_market": "引け後", "during_market": "場中" },
+  "dividends": { "title": "配当カレンダー", "subtitle": "主要銘柄の権利落ち日", "ex_date": "権利落ち日", "yield": "利回り", "amount": "配当額" },
+  "macro": { "title": "マクロ&FEDイベント", "subtitle": "FOMC、CPI、雇用統計などの主要経済指標", "fomc": "FOMC会議", "cpi": "CPI", "nfp": "雇用統計", "gdp": "GDP", "pce": "PCEインフレ" },
+  "ipos": { "title": "IPO予定", "subtitle": "2025年Q2のIPO予定リスト", "expected": "予定日", "valuation": "想定時価総額", "exchange": "上場先" },
+  "common": { "importance_high": "高重要度", "importance_medium": "中重要度", "importance_low": "低重要度", "time_et": "ET", "loading": "読み込み中...", "error": "エラーが発生しました", "back": "戻る", "more_info": "詳細" },
+  "footer": { "description": "トレーダーと投資家のための無料マーケットイベントカレンダー。", "disclaimer": "情報提供目的のみ。投資アドバイスではありません。", "visitors_today": "本日の訪問者", "visitors_total": "累計訪問者", "copyright": "© 2025 MarketEventBoard. All rights reserved." },
+  "faq": { "q1": "MarketEventBoardとは？", "a1": "決算、配当、FOMC、経済指標を一元管理できる無料金融イベントカレンダーです。", "q2": "データはどのくらいの頻度で更新されますか？", "a2": "イベントデータは定期的に更新されます。", "q3": "どのイベントタイプを追跡しますか？", "a3": "決算、配当、FOMC、CPI、雇用統計、GDP、PPI、小売売上高、IPOを追跡します。" }
+}

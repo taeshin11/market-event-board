@@ -1,0 +1,12 @@
+{
+  "nav": { "home": "首页", "calendar": "日历", "earnings": "财报", "dividends": "股息", "macro": "宏观", "ipos": "新股", "title": "MarketEventBoard" },
+  "home": { "hero_title": "市场事件日历", "hero_subtitle": "一站式跟踪财报、股息、FOMC会议及宏观经济数据。", "this_week": "本周事件", "upcoming_high": "即将到来的重要事件", "view_all": "查看全部", "no_events": "暂无事件", "filter_all": "全部", "filter_earnings": "财报", "filter_dividends": "股息", "filter_macro": "宏观/美联储", "filter_ipos": "新股" },
+  "calendar": { "title": "事件日历", "subtitle": "市场事件月视图", "prev_month": "上月", "next_month": "下月", "today": "今天", "no_events": "当天无事件" },
+  "earnings": { "title": "财报日历", "subtitle": "2025年第二季度企业财报发布日程", "pre_market": "盘前", "post_market": "盘后", "during_market": "盘中" },
+  "dividends": { "title": "股息日历", "subtitle": "主要股票除权日", "ex_date": "除权日", "yield": "股息率", "amount": "股息金额" },
+  "macro": { "title": "宏观与美联储事件", "subtitle": "FOMC会议、CPI、就业报告等关键经济数据", "fomc": "FOMC会议", "cpi": "CPI通胀", "nfp": "非农就业", "gdp": "GDP数据", "pce": "PCE通胀" },
+  "ipos": { "title": "即将上市新股", "subtitle": "2025年Q2预期IPO列表", "expected": "预计日期", "valuation": "估值", "exchange": "交易所" },
+  "common": { "importance_high": "高影响", "importance_medium": "中影响", "importance_low": "低影响", "time_et": "美东时间", "loading": "加载中...", "error": "出现错误", "back": "返回", "more_info": "更多信息" },
+  "footer": { "description": "面向交易者和投资者的免费市场事件日历。", "disclaimer": "数据仅供参考，不构成投资建议。", "visitors_today": "今日访客", "visitors_total": "总访客", "copyright": "© 2025 MarketEventBoard. 保留所有权利。" },
+  "faq": { "q1": "什么是MarketEventBoard？", "a1": "MarketEventBoard是一个免费金融事件日历，汇集财报、股息除权日、FOMC会议和经济数据发布。", "q2": "数据多久更新一次？", "a2": "事件数据定期更新。", "q3": "追踪哪些事件类型？", "a3": "追踪财报、股息、FOMC、CPI、非农、GDP、PPI、零售销售和新股上市。" }
+}

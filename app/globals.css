@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f0f4ff;
+  --surface: #ffffff;
+  --accent: #6366f1;
+  --accent-dark: #4f46e5;
+  --text-primary: #1e1b4b;
+  --text-muted: #6b7280;
+  --border: #e0e7ff;
+  --earnings: #7c3aed;
+  --earnings-bg: #ede9fe;
+  --fed: #dc2626;
+  --fed-bg: #fee2e2;
+  --macro: #d97706;
+  --macro-bg: #fef3c7;
+  --dividend: #059669;
+  --dividend-bg: #d1fae5;
+  --ipo: #0284c7;
+  --ipo-bg: #e0f2fe;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.event-badge-earnings {
+  background-color: var(--earnings-bg);
+  color: var(--earnings);
+}
+.event-badge-fed {
+  background-color: var(--fed-bg);
+  color: var(--fed);
+}
+.event-badge-macro {
+  background-color: var(--macro-bg);
+  color: var(--macro);
+}
+.event-badge-dividend {
+  background-color: var(--dividend-bg);
+  color: var(--dividend);
+}
+.event-badge-ipo {
+  background-color: var(--ipo-bg);
+  color: var(--ipo);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}

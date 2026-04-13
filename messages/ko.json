@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "홈",
+    "calendar": "캘린더",
+    "earnings": "실적",
+    "dividends": "배당",
+    "macro": "매크로",
+    "ipos": "IPO",
+    "title": "MarketEventBoard"
+  },
+  "home": {
+    "hero_title": "시장 이벤트 캘린더",
+    "hero_subtitle": "실적 발표, 배당, FOMC 회의 및 주요 경제 지표를 한곳에서 확인하세요.",
+    "this_week": "이번 주 이벤트",
+    "upcoming_high": "주요 예정 이벤트",
+    "view_all": "전체 보기",
+    "no_events": "예정된 이벤트 없음",
+    "filter_all": "전체",
+    "filter_earnings": "실적",
+    "filter_dividends": "배당",
+    "filter_macro": "매크로 / 연준",
+    "filter_ipos": "IPO"
+  },
+  "calendar": {
+    "title": "이벤트 캘린더",
+    "subtitle": "예정된 주요 시장 이벤트 월별 보기",
+    "prev_month": "이전 달",
+    "next_month": "다음 달",
+    "today": "오늘",
+    "no_events": "이 날 이벤트 없음"
+  },
+  "earnings": {
+    "title": "실적 발표 캘린더",
+    "subtitle": "2025년 2분기 기업 실적 발표 일정",
+    "pre_market": "장 전",
+    "post_market": "장 후",
+    "during_market": "장중"
+  },
+  "dividends": {
+    "title": "배당 캘린더",
+    "subtitle": "주요 종목 배당락일 일정",
+    "ex_date": "배당락일",
+    "yield": "수익률",
+    "amount": "배당금"
+  },
+  "macro": {
+    "title": "매크로 & 연준 이벤트",
+    "subtitle": "FOMC 회의, CPI, 고용보고서 등 주요 경제 지표",
+    "fomc": "FOMC 회의",
+    "cpi": "CPI 인플레이션",
+    "nfp": "고용보고서 (NFP)",
+    "gdp": "GDP 데이터",
+    "pce": "PCE 인플레이션"
+  },
+  "ipos": {
+    "title": "예정 IPO",
+    "subtitle": "2025년 2분기 예정 IPO 목록",
+    "expected": "예정일",
+    "valuation": "예상 시가총액",
+    "exchange": "상장 거래소"
+  },
+  "common": {
+    "importance_high": "고영향",
+    "importance_medium": "중영향",
+    "importance_low": "저영향",
+    "time_et": "ET",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "back": "뒤로",
+    "more_info": "더 보기"
+  },
+  "footer": {
+    "description": "트레이더와 투자자를 위한 무료 시장 이벤트 캘린더입니다.",
+    "disclaimer": "데이터는 참고 목적으로만 제공됩니다. 투자 조언이 아닙니다.",
+    "visitors_today": "오늘 방문자",
+    "visitors_total": "총 방문자",
+    "copyright": "© 2025 MarketEventBoard. All rights reserved."
+  },
+  "faq": {
+    "q1": "MarketEventBoard란 무엇인가요?",
+    "a1": "MarketEventBoard는 실적 발표, 배당락일, FOMC 회의, 경제 지표 발표를 한곳에서 모아보는 무료 금융 이벤트 캘린더입니다.",
+    "q2": "데이터는 얼마나 자주 업데이트되나요?",
+    "a2": "이벤트 데이터는 정기적으로 업데이트됩니다.",
+    "q3": "어떤 이벤트 유형을 추적하나요?",
+    "a3": "실적 발표, 배당락일, FOMC 회의, CPI 발표, 고용보고서, GDP, PPI, 소매판매, IPO를 추적합니다."
+  }
+}

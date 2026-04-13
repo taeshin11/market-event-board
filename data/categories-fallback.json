@@ -1,0 +1,7 @@
+[
+  { "id": "earnings", "label": "Earnings", "color": "#7c3aed", "bgColor": "#ede9fe", "textColor": "#5b21b6" },
+  { "id": "fed", "label": "Fed / FOMC", "color": "#dc2626", "bgColor": "#fee2e2", "textColor": "#991b1b" },
+  { "id": "macro", "label": "Macro Data", "color": "#d97706", "bgColor": "#fef3c7", "textColor": "#92400e" },
+  { "id": "dividend", "label": "Dividend", "color": "#059669", "bgColor": "#d1fae5", "textColor": "#065f46" },
+  { "id": "ipo", "label": "IPO", "color": "#0284c7", "bgColor": "#e0f2fe", "textColor": "#0c4a6e" }
+]

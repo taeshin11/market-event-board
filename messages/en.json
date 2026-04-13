@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "calendar": "Calendar",
+    "earnings": "Earnings",
+    "dividends": "Dividends",
+    "macro": "Macro",
+    "ipos": "IPOs",
+    "title": "MarketEventBoard"
+  },
+  "home": {
+    "hero_title": "Market Events Calendar",
+    "hero_subtitle": "Track earnings, dividends, FOMC meetings & macro data releases — all in one place.",
+    "this_week": "This Week's Events",
+    "upcoming_high": "Upcoming High-Impact Events",
+    "view_all": "View All",
+    "no_events": "No events scheduled",
+    "filter_all": "All",
+    "filter_earnings": "Earnings",
+    "filter_dividends": "Dividends",
+    "filter_macro": "Macro / Fed",
+    "filter_ipos": "IPOs"
+  },
+  "calendar": {
+    "title": "Events Calendar",
+    "subtitle": "Monthly view of all scheduled market events",
+    "prev_month": "Previous Month",
+    "next_month": "Next Month",
+    "today": "Today",
+    "no_events": "No events this day"
+  },
+  "earnings": {
+    "title": "Earnings Calendar",
+    "subtitle": "Q2 2025 corporate earnings reports — pre-market and after-hours releases",
+    "pre_market": "Pre-Market",
+    "post_market": "After-Hours",
+    "during_market": "During Market"
+  },
+  "dividends": {
+    "title": "Dividend Calendar",
+    "subtitle": "Upcoming ex-dividend dates for major stocks",
+    "ex_date": "Ex-Date",
+    "yield": "Yield",
+    "amount": "Amount"
+  },
+  "macro": {
+    "title": "Macro & Fed Events",
+    "subtitle": "FOMC meetings, CPI, jobs reports and other key economic data releases",
+    "fomc": "FOMC Meeting",
+    "cpi": "CPI Inflation",
+    "nfp": "Jobs Report (NFP)",
+    "gdp": "GDP Data",
+    "pce": "PCE Inflation"
+  },
+  "ipos": {
+    "title": "Upcoming IPOs",
+    "subtitle": "Expected IPO listings in Q2 2025",
+    "expected": "Expected Date",
+    "valuation": "Est. Valuation",
+    "exchange": "Exchange"
+  },
+  "common": {
+    "importance_high": "High Impact",
+    "importance_medium": "Medium Impact",
+    "importance_low": "Low Impact",
+    "time_et": "ET",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "back": "Back",
+    "more_info": "More Info"
+  },
+  "footer": {
+    "description": "Free market events calendar for traders and investors. Track earnings, dividends, FOMC meetings and economic data releases.",
+    "disclaimer": "Data is for informational purposes only. Not financial advice.",
+    "visitors_today": "Visitors today",
+    "visitors_total": "Total visitors",
+    "copyright": "© 2025 MarketEventBoard. All rights reserved."
+  },
+  "faq": {
+    "q1": "What is MarketEventBoard?",
+    "a1": "MarketEventBoard is a free financial events calendar that aggregates earnings reports, dividend ex-dates, FOMC meetings, and economic data releases in one place.",
+    "q2": "How often is data updated?",
+    "a2": "Event data is updated regularly. Earnings dates are sourced from company investor relations pages and financial data providers.",
+    "q3": "What event types are tracked?",
+    "a3": "We track earnings reports, dividend ex-dates, Federal Reserve (FOMC) meetings, CPI inflation releases, jobs reports (NFP), GDP data, PPI, retail sales, and IPOs."
+  }
+}
