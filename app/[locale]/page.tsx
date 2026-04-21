@@ -6,6 +6,9 @@ import { EventList } from "@/components/events/EventList";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+import { AdsterraNativeBanner } from '@/components/ads/AdsterraNativeBanner';
+import { AdsterraDisplay } from '@/components/ads/AdsterraDisplay';
+
 export async function generateMetadata({
   params,
 }: {
@@ -177,6 +180,8 @@ export default async function HomePage({
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">All Upcoming Events</h2>
           <EventList events={allEvents.filter((e) => e.date >= new Date().toISOString().split("T")[0])} />
         </section>
+      <AdsterraNativeBanner />
+      <AdsterraDisplay />
       </div>
     </>
   );

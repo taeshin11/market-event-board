@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc",
+  },
   title: "MarketEventBoard — Earnings, Dividends & Macro Events Calendar",
   description:
     "Free market events calendar. Track earnings reports, dividend ex-dates, FOMC meetings, CPI, jobs reports and more — all in one place.",

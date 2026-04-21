@@ -5,26 +5,60 @@ import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import type { Metadata } from "next";
+import Script from 'next/script';
+import { FeedbackButton } from '@/components/FeedbackButton';
+import { AdSocialBar } from '@/components/ads/AdSocialBar';
 
 export const metadata: Metadata = {
+  verification: {
+    google: "WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc",
+  },
   title: {
-    default: "MarketEventBoard — Earnings, Dividends & Macro Events Calendar",
+    default: "Economic Calendar & Market Events | MarketEventBoard",
     template: "%s | MarketEventBoard",
   },
   description:
-    "Free market events calendar. Track earnings reports, dividend ex-dates, FOMC meetings, CPI, jobs reports and more.",
+    "Track market-moving events: CPI, Fed meetings, NFP jobs report, GDP releases, earnings seasons, and more. Never miss a market-moving economic event.",
+  keywords: [
+    "economic calendar",
+    "market events",
+    "CPI release date",
+    "Fed meeting calendar",
+    "NFP jobs report",
+    "earnings calendar",
+    "GDP release",
+    "market moving events",
+  ],
   metadataBase: new URL("https://market-event-board.vercel.app"),
+  alternates: {
+    canonical: "https://market-event-board.vercel.app/en",
+    languages: {
+      en: "/en",
+      ko: "/ko",
+      ja: "/ja",
+      zh: "/zh",
+      es: "/es",
+      fr: "/fr",
+      de: "/de",
+      pt: "/pt",
+    },
+  },
   openGraph: {
     type: "website",
     siteName: "MarketEventBoard",
-    title: "MarketEventBoard — Earnings, Dividends & Macro Events Calendar",
-    description: "Free market events calendar for traders and investors.",
+    title: "Economic Calendar & Market Events | MarketEventBoard",
+    description:
+      "Track market-moving events: CPI, Fed meetings, NFP jobs report, GDP releases, earnings seasons, and more.",
     url: "https://market-event-board.vercel.app",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MarketEventBoard",
-    description: "Free market events calendar — earnings, dividends, FOMC and macro data.",
+    title: "Economic Calendar & Market Events | MarketEventBoard",
+    description:
+      "Track market-moving events: CPI, Fed meetings, NFP jobs report, GDP releases, earnings seasons, and more. Never miss a market-moving economic event.",
+  },
+  other: {
+    "google-adsense-account": "ca-pub-7098271335538021",
   },
 };
 
@@ -51,6 +85,9 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <Navbar locale={locale} />
       <main className="flex-1">{children}</main>
+      <AdSocialBar />
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7098271335538021" crossOrigin="anonymous" strategy="afterInteractive" />
+      <FeedbackButton siteName="MarketEventBoard" />
       <Footer />
     </NextIntlClientProvider>
   );
